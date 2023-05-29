@@ -1,1 +1,36 @@
 
+Q1. What is the purpose of Python's OOP?
+Ans : Python OOP allow user to develop application in real world scenerios based making use of objects and classes which enhances the application development procedure. So that we can relate with real world scenario. 
+
+And help us to bundle the behaviour and properties together into individual objects.
+
+The main concept of OOP is to bind or wrap the data and function together that work as a single unit
+
+Q2. Where does an inheritance search look for an attribute?
+
+Ans: First in the instance object, then in the class where instance was created and the in all the higher superclass
+
+Q3. How do you distinguish between a class object and an instance object?
+Ans: The class object represents itself whereas instance object represents an individual instance of class.
+ Class is a template for creating object .
+Class is created once and many objects can be created of that class
+
+Q4. What makes the first argument in a class’s method function special?
+
+Ans: self is the argument for instance methods which refer to the object itself
+
+Q5. What is the purpose of the __init__ method?
+Ans: __inti__ is a reserved word in python and serves as a constructor this method is called when the object is created
+
+Q6. What is the process for creating a class instance?
+Ans: to call a class by its name and to create a object and pass all the required parameter in the object which that class accepts.
+
+
+
+Q7. What is the process for creating a class?
+Ans : to bind all the data members and data functions together which needs to be bundled together and no other class can interfere in the class.
+
+Q8. How would you define the superclasses of a class?
+Ans : superclass/parent class is given through the argument to the child class.
+
+Class Company(Employee): here child class company has parent class as Employee 
